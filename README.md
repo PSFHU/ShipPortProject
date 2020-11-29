@@ -1,2 +1,2 @@
 # ShipPortProject
-Oracle DB - Handin Project
+Oracle DB - Assignment Project
