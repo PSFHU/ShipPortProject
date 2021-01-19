@@ -1,0 +1,3 @@
+CREATE SEQUENCE person_seq
+    START WITH 9000
+    INCREMENT BY 1;
