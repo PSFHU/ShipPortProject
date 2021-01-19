@@ -3,8 +3,7 @@ CREATE OR REPLACE procedure reg_container(
     v_status          IN VARCHAR2(10),
     v_site_ID         IN NUMBER,
     v_dimensions_ID   IN NUMBER,
-    v_ship_ID         IN NUMBER,
-    v_last_change     IN DATE
+    v_ship_ID         IN NUMBER
 ) IS
 
 BEGIN
@@ -14,18 +13,16 @@ BEGIN
         status,
         site_ID,
         dimensions_ID,
-        ship_ID,
-        last_change
+        ship_ID
     )
     VALUES
     (
-        /*TODO ID SEQUENCE*/
+        container_seq.NEXTVAL
         v_weight,
         v_status,
         v_site_ID,
         v_dimensions_ID,
-        v_ship_ID,
-        v_last_change
+        v_ship_ID
     );
 
 END;

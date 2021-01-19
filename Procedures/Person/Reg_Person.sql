@@ -4,8 +4,7 @@ CREATE OR REPLACE procedure reg_person(
   v_img         IN VARCHAR2(50),
   v_birth_date    IN DATE,
   v_ship_ID       IN NUMBER,
-  v_status        IN VARCHAR2(10),
-  v_last_change   IN DATE
+  v_status        IN VARCHAR2(10)
 ) IS
 
 BEGIN
@@ -16,19 +15,17 @@ BEGIN
         img,
         birth_date,
         ship_ID,
-        status,
-        last_change
+        status
     )
     VALUES
     (
-        /*TODO ID SEQUENCE*/
+        person_seq.NEXTVAL
         v_person_name,
         v_sex,
         v_img,
         v_birth_date,
         v_ship_ID,
-        v_status,
-        v_last_change
+        v_status
     );
 
 END;

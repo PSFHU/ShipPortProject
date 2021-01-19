@@ -13,7 +13,7 @@ BEGIN
     )
     VALUES
     (
-        /*TODO ID SEQUENCE*/
+        ship_seq.NEXTVAL
         v_ship_type,
         v_ship_name,
         v_in_port

@@ -5,7 +5,6 @@ CREATE TABLE container_history(
         site_ID         NUMBER              NULL,
         dimensions_ID   NUMBER              NOT NULL,
         ship_ID         NUMBER              NOT NULL,
-        last_change     DATE                NOT NULL
         mod_user        VARCHAR2(300),
         created_on      TIMESTAMP(6),
         last_mod        TIMESTAMP(6),

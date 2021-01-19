@@ -15,7 +15,7 @@ BEGIN
     )
     VALUES
     (
-        /*TODO ID SEQUENCE*/
+        site_seq.NEXTVAL
         v_current_weight,
         v_max_weight,
         v_max_slot,

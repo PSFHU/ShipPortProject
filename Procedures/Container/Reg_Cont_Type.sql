@@ -15,7 +15,7 @@ BEGIN
     )
     VALUES
     (
-        /*TODO ID SEQUENCE*/
+        container_type_seq.NEXTVAL
         v_height,
         v_width,
         v_lenght,
