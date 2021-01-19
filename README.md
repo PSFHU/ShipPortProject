@@ -4,6 +4,10 @@ Oracle DB - Assignment Project
 
 The task of this small project to create a record of a Port.
 
+## Diagram view
+
+![Daigram of the database structure](Diagram/Starter-Diagram.jpg)
+
 ## Basic funcitons
 
 - Register ship
