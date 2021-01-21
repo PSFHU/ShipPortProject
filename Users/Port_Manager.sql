@@ -11,7 +11,7 @@ BEGIN
 END;
 /
 CREATE USER port_manager 
-    identified BY 'portmanager' 
+    identified BY "portmanager"
     DEFAULT tablespace users 
     quota unlimited ON users
 ;

@@ -11,7 +11,7 @@ BEGIN
 END;
 /
 CREATE USER ship_manager 
-    identified BY 'shipmanager'
+    identified BY "shipmanager"
     DEFAULT tablespace users 
     quota unlimited ON users
 ;

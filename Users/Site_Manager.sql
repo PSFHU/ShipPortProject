@@ -11,7 +11,7 @@ BEGIN
 END;
 /
 CREATE USER site_manager 
-    identified BY 'sitemanager'
+    identified BY "sitemanager"
     DEFAULT tablespace users 
     quota unlimited ON users
 ;
