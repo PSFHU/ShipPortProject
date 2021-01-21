@@ -8,9 +8,11 @@ The task of this small project to create a record of a Port.
 
 1. Login with sys
 2. Run installer_sys.sql
-3. Login with port_admin (Default password: admin)
+3. Login with port_admin (Default password: portadmin)
 4. Run installer_port_admin.sql
-5. Done
+5. Login with sys
+6. Run installer_sys_finish.sql
+7. Done
 
 ## Roles
 
