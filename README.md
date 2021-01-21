@@ -16,7 +16,7 @@ The task of this small project to create a record of a Port.
 
 ## Roles
 
-![Role diagram](Diagram/Roles.png)
+![Role diagram](Diagrams/Roles.png)
 
 ## Users
 
@@ -27,9 +27,9 @@ The task of this small project to create a record of a Port.
 
 ## Diagram views
 
-![Base diagram of the database](Diagram/Starter-Diagram.jpg)
+![Base diagram of the database](Diagrams/Starter-Diagram.jpg)
 
-![Extended diagram of the database](Diagram/History-Diagram.jpg)
+![Extended diagram of the database](Diagrams/History-Diagram.jpg)
 
 ## Basic procedures
 
