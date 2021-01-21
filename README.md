@@ -4,9 +4,15 @@ Oracle DB - Assignment Project
 
 The task of this small project to create a record of a Port.
 
-## Diagram view
+## Roles
 
-![Daigram of the database structure](Diagram/Starter-Diagram.jpg)
+![Role diagram](Diagram/Roles.png)
+
+## Diagram views
+
+![Base diagram of the database](Diagram/Starter-Diagram.jpg)
+
+![Extended diagram of the database](Diagram/History-Diagram.jpg)
 
 ## Basic funcitons
 
@@ -26,4 +32,3 @@ The task of this small project to create a record of a Port.
   - Register container
   - Move container
   - Sign off container
-
